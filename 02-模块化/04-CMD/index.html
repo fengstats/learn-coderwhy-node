@@ -5,12 +5,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>演练 AMD 规范</title>
+  <title>演练 CMD 规范</title>
 </head>
 
 <body>
-  <script src="./lib/require.js"></script>
-  <script src="./index.js"></script>
+  <script src="./lib/sea.js"></script>
+  <script>
+    // 入口文件
+    seajs.use('./index.js', function (index) {
+      console.log('html', index);
+    });
+  </script>
+
 </body>
 
 </html>
