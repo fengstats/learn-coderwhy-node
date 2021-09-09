@@ -17,7 +17,7 @@ router.post("/", (ctx, next) => {
 router.get("/:id", (ctx, next) => {
   console.log(ctx.request.params);
   console.log(ctx.request.query);
-  resizeBy.json("数据请求成功");
+  ctx.response.body = "数据请求成功";
 });
 
 module.exports = router;
