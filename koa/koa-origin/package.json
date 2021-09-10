@@ -4,10 +4,13 @@
   "description": "```shell\r npm i -g express-genrator\r express express-demo\r ```",
   "main": "index.js",
   "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
     "koa": "^2.13.1",
     "koa-bodyparser": "^4.3.0",
     "koa-multer": "^1.0.2",
-    "koa-router": "^10.1.1"
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "koa2-connect-history-api-fallback": "^0.1.3"
   },
   "devDependencies": {},
   "scripts": {

@@ -17,3 +17,9 @@ npm i koa-bodyparser
 ```shell
 npm i koa-multer
 ```
+
+## 静态服务部署
+
+```shell
+npm i koa-static
+```

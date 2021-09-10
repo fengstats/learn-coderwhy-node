@@ -48,3 +48,9 @@ npm install multer
 ```shell
 npm install morgan
 ```
+
+将路由变成 history 模式
+
+```shell
+npm i connect-history-api-fallback
+```

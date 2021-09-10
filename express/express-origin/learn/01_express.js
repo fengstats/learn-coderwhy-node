@@ -6,7 +6,7 @@ const app = express();
 
 // GET 监听路径
 app.get("/", (req, res, next) => {
-  // res.end("GET: Hello");
+  res.end("GET: Hello");
 });
 
 // POST
